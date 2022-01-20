@@ -1,9 +1,9 @@
 # DigiText_backend / Shopify Backend Challenge
 
-To reviewer: I build the entire backend / frontend of digitext.ca for my high school as a textbook management webapp. It is fully functional and currently operational at St. Paul's High School. I created a mock-database for anyone to fool around with:
+To reviewer: I build the entire backend / frontend of digitext.ca for my high school as a textbook management webapp. It is fully functional and currently operational at St. Paul's High School. I created a mock-database for anyone to fool around with: \
 
-www.digitext.ca
-username: testUser
+www.digitext.ca \
+username: testUser \
 password: 2022SummerInternship
 
 The webapp actually meets the requirements for many of the challenges but CSV data for all the relevant textbook data can be accessed by logging in --> textbook management --> EXPORT TO CSV.
