@@ -14,10 +14,8 @@ from Schools import Schools
 
 # Flask app and database initialization
 app = Flask(__name__)
-CORS(app, origins='*', 
-     headers=['Content-Type', 'Authorization'], 
-     expose_headers= ['Authorization', 'Content-Disposition'])
-app.config["CORS_HEADERS"] = "Content-Type"
+CORS(app)
+#app.config["CORS_HEADERS"] = "Content-Type"
 app.config["SECRET_KEY"] = "thisshouldbereplacedwithsomethingwithbetterentropybutthisisgoodfornow"
 
 # configure main database
